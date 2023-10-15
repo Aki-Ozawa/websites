@@ -37,10 +37,3 @@ function calculateTotalPrice() {
   itemPriceElement.textContent = '$' + itemPrice.toFixed(2);
 }
 
-
-function showImage(imagePath) {
-  var bigImage = document.getElementById('big-image');
-  bigImage.src = imagePath;
-  var bigImageContainer = document.getElementById('big-image-container');
-  bigImageContainer.style.display = 'block';
-}

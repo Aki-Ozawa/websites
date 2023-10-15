@@ -1,0 +1,129 @@
+<head>
+  <link rel="stylesheet" href="product.css">
+  <script src="https://kit.fontawesome.com/d2d0264fe5.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="product.js"></script>
+</head>
+
+<body>
+  <!-- Include the navbar -->
+  <!--#include virtual="navbar.html" -->
+
+  <section>
+    <div class="big-container">
+      <div class="left-con">
+        <div class="picture-con">
+          <div class="picture-1"></div>
+          <div class="picture-2"></div>
+          <div class="picture-3"></div>
+          <div class="picture-4"></div>
+        </div>
+        <div class="main-pic">
+          <img id="mainImage" src="https://shop.sanrio.co.jp/photo/item/2109033715/zz-2109033715_KU_--1.jpg" alt="Main Image">
+        </div>
+      </div>
+      <div class="right-con">
+        <div class="leftSide">
+          <div class="rate-con">
+            <h3>Visit The Sanrio Store </h3>
+            <h2>Sanrio 033901 Kuromi Stainless Steel Mug with Lid</h2>
+            <h4 class="rank">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </h4>
+          </div>
+          <div class="price-con">
+            <h3 class="price-display">$00.00</h3>
+            <p>Tax included</p>
+          </div>frsho
+          <p>You will earn 20 points, if you purchase this item</p>
+          <div class="options-con">
+            <div class="options">
+              <div class="smallSquare" onclick="showPrice('$23.60')">
+                <p>Kuromi</p>
+                <P>$23.60</P>
+              </div>
+              <div class="smallSquare" onclick="showPrice('$22.30')">
+                <p>Hello kitty</p>
+                <p>$22.30</p>
+              </div>
+              <div class="smallSquare" onclick="showPrice('$20.30')">
+                <p>Pochacco</p>
+                <p>$20.30</p>
+              </div>
+              <div class="smallSquare" onclick="showPrice('$25.00')">
+                <p>My melody</p>
+                <p>$25.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <p><strong>Brand: </strong>Sanrio</p>
+            <p><strong>Age range: </strong>Adult</p>
+            <p><strong>Material: </strong>Metal</p>
+          </div>
+          <div class="aboutItem">
+            <h4>About this item</h4>
+            <p>Priduct size - approx 4.7 x 3.5 x 3.7 inches (12 x 9 x 9.5 cm)</p>
+            <p>Country of origin - Japan</p>
+          </div>
+        </div>
+        <div class="rightSide">
+          <div class="free-trial">
+            <h4>3 Days Trial</h4>
+            <input type="checkbox" id="trial">
+            <p>Start your free trial to get shipping benefits with prime</p>
+          </div>
+          <div class="margin">
+            <h4>Purchase the item</h4>
+            <div class="price-con2">
+              <p class="itemPrice">$00.00</p>pri
+              <p>tax included</p>
+            </div>
+          </div>
+          <div class="someInfo">
+            <p><strong>Points obtained</strong> is 30 points</p>
+            <p><strong>Free delivery</strong> Friday 31th October</p>
+            <div class="Quantity">
+              <p>Quantity</p>
+              <select name="quantity" id="quantity" onchange="calculateTotalPrice()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+              </select>
+            </div>
+            <div class="two-btn">
+              <button class="btn-1">Add to cart</button>
+              <button class="btn-2">Purchase now</button>
+            </div>
+            <p>Ships from Tokyo, Japan</p>
+            <p>Secure payment guranteed</p>
+            <div class="gift">
+              <input type="checkbox" id="gift">
+              <p>Gift wrapping option</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </section>

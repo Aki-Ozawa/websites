@@ -63,6 +63,7 @@ h4{
 .big-image-container{
   width: 90%;
   border: solid lightgray 1px;
+
   background-size: cover;
   background-position: center center;
 
@@ -190,4 +191,15 @@ h4{
   gap: 10px;
   border-top: solid lightgray 1px;
   margin-top: 20px;
+}
+.aboutItem {
+  padding-left: 10px;
+}
+.fa-solid {
+  color: yellow;
+  font-size: 30px;
+}
+.fa-regular {
+font-size: 30px;
+color: yellow;
 }

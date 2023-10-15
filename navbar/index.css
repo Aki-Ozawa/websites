@@ -1,0 +1,48 @@
+.main-con {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../pictures/pexels-moose-photos-1038000.jpg);
+  background-size: 100% 100%;
+  background: cover;
+}
+
+.main-con h2 {
+  font-size: 70px;
+  margin: 0;
+  color: #fff;
+}
+.main-con h4 {
+  display: flex;
+  align-self: center;
+}
+.center-con {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-con {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-btn {
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: rgb(240, 144, 231);
+  color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.shop-btn:hover{
+  cursor: pointer;
+}
