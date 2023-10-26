@@ -37,3 +37,12 @@ function calculateTotalPrice() {
   itemPriceElement.textContent = '$' + itemPrice.toFixed(2);
 }
 
+const pictureElements = document.querySelectorAll('.picture');
+const mainImage = document.getElementById('mainImage');
+
+pictureElements.forEach((picture, index) => {
+  picture.addEventListener('click', () => {
+    const backgroundImage = window.getComputedStyle(picture).getPropertyValue('background-image');
+    mainImage.style.backgroundImage = backgroundImage;
+  });
+});

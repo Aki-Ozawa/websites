@@ -59,7 +59,18 @@ h4{
   background-size: cover;
   background-position: center center;
 }
-
+.picture-1:hover {
+  border-color: blue;
+}
+.picture-2:hover {
+  border-color: blue;
+}
+.picture-3:hover {
+  border-color: blue;
+}
+.picture-4:hover {
+  border-color: blue;
+}
 .big-image-container{
   width: 90%;
   border: solid lightgray 1px;
