@@ -40,9 +40,9 @@ function calculateTotalPrice() {
 const pictureElements = document.querySelectorAll('.picture');
 const mainImage = document.getElementById('mainImage');
 
-pictureElements.forEach((picture, index) => {
-  picture.addEventListener('click', () => {
-    const backgroundImage = window.getComputedStyle(picture).getPropertyValue('background-image');
-    mainImage.style.backgroundImage = backgroundImage;
-  });
-});
+function displayImage(imageUrl){
+  const mainImage = document.getElementById('mainImage');
+  mainImage.src = imageUrl
+  mainImage.style.width = '100%';
+  mainImage.style.height = 'auto';
+}
